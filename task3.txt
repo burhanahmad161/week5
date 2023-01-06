@@ -1,0 +1,18 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+bool isTrue();
+{
+int num;
+cout<<"enter a three digit number:";
+cin>>num;
+isTrue();
+}
+bool isTrue()
+{
+if(num==num)
+	{
+	 return num;	
+	}
+return 0;
+}

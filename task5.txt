@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int timePEr();
+main()
+{
+  float hours,minutes;
+  cout<<"Enter time in hours:(between 0 and 23)";
+  cin>>hours;	
+  cout<<"Enter time in minutes:(between 0 and 59)";
+  cin>>time;	
+  timePEr(); 
+}
+int timePEr()
+{
+  float time_in_sec=(hours*24*60)+(minutes*60);
+  float total_time=time_in_sec+900;
+  int time_in_h=total_time/3600;
+
+}
